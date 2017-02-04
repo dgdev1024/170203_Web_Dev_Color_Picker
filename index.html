@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset = "utf-8">
+        <meta http-quiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <!-- Page Title -->
+        <title>Page Title</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+
+        <!-- Javascript -->
+        <script src = "submit.js"></script>
+    </head>
+    <body>
+        <!-- Place your HTML within this container div. -->
+        <div class = "container">
+            <div class = "row">
+                <!-- Color Picker UI -->
+                <div class = "col-md-4 col-md-offset-4 well col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+                    <!-- Title and Instructions. -->
+                    <h2 class = "text-center">Color Picker</h3>
+                    <p class = "text-center text-info">
+                        Use the sliders below to set the color values and the
+                        background color will change accordingly.
+                    </p>
+
+                    <!-- Red Slider -->
+                    <div class = "input-group">
+                        <span class = "input-group-addon" id = "red-slider-caption">Red: </span>
+                        <input class = "color-slider form-control" id = "red-slider" type = "range" min = "0" max = "255" value = "255" aria-describedby = "red-slider-caption">
+                    </div>
+
+                    <!-- Green Slider -->
+                    <div class = "input-group">
+                        <span class = "input-group-addon" id = "green-slider-caption">Green: </span>
+                        <input class = "color-slider form-control" id = "green-slider" type = "range" min = "0" max = "255" value = "255" aria-describedby = "green-slider-caption">
+                    </div>
+
+                    <!-- Blue Slider -->
+                    <div class = "input-group">
+                        <span class = "input-group-addon" id = "blue-slider-caption">Blue: </span>
+                        <input class = "color-slider form-control" id = "blue-slider" type = "range" min = "0" max = "255" value = "255" aria-describedby = "blue-slider-caption">
+                    </div>
+
+                    <!-- RGB Values Display -->
+                    <h4 class = "text-primary text-center" id = "rgb-display">
+                        RGB: 255, 255, 255
+                    </h4>
+
+                    <!-- Hexidecimal Display -->
+                    <h4 class = "text-primary text-center" id = "hex-display">
+                        Hexidecimal: #FFFFFF
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
+    </body>
+</html>
