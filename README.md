@@ -10,3 +10,6 @@ have learned so far.
 ## How to Use
 Use the three sliders at the center of the page to change the background color of the webpage. You'll see RGB values and a
 Hexidecimal representation of the colors you select. That's all there is to it.
+
+## Codepen
+You can see this app in action here: http://codepen.io/dgdev1024/full/JEmmpy/
